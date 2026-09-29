@@ -1,0 +1,25 @@
+{
+  "schema": "dualtrack-inference-assets-v1",
+  "artifacts": {
+    "qwen_model": {
+      "path": "model.safetensors",
+      "sha256": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6"
+    },
+    "qwen_speech_tokenizer": {
+      "path": "speech_tokenizer/model.safetensors",
+      "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+    },
+    "semoco_tokenizer": {
+      "path": "../tokenizer/checkpoints/best.pt",
+      "sha256": "c381a0db2ef794f93808169bb420dc0695b67788609acd0b999a651ea0f6f1f7"
+    },
+    "motionprior": {
+      "path": "../motionprior/checkpoints/step861853.pt",
+      "sha256": "a0a651d0699662fdfb925646e11ece5be8b027d66cac914047657e5157323442"
+    }
+  },
+  "original_checkpoint_lock_digests": {
+    "base": "c365e2c565b51968e35b368e959b8b55bac2538d1eb000ba9f5ebeb98e861dcb",
+    "architecture": "f2676aec142da529b4a45fb2216e1cf1f77973ee09b6d1882ca3e2b493f19b20"
+  }
+}

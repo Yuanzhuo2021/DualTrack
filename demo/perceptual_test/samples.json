@@ -1,0 +1,282 @@
+[
+  {
+    "sample_id": "english_13_lu_0_103_103",
+    "language": "english",
+    "text": "see university almost more than 10 years ago the community security was not very good",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_103_103/dualtrack",
+      "gelina": "english/english_13_lu_0_103_103/gelina",
+      "gt": "english/english_13_lu_0_103_103/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_111_111",
+    "language": "english",
+    "text": "some people pelting stones to dogs and watching them yelp and imprint of used some little",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_111_111/dualtrack",
+      "gelina": "english/english_13_lu_0_111_111/gelina",
+      "gt": "english/english_13_lu_0_111_111/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_1_1",
+    "language": "english",
+    "text": "the first thing i like to do on weekends is relaxing and i will go shopping if i know they're tired since",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_1_1/dualtrack",
+      "gelina": "english/english_13_lu_0_1_1/gelina",
+      "gt": "english/english_13_lu_0_1_1/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_2_2",
+    "language": "english",
+    "text": "so we'll have time to kill i like to play on the in the night and pay closer",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_2_2/dualtrack",
+      "gelina": "english/english_13_lu_0_2_2/gelina",
+      "gt": "english/english_13_lu_0_2_2/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_65_65",
+    "language": "english",
+    "text": "the best time for me is when i get so volunteer as well as simple as sequence leading the way for serving us again",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_65_65/dualtrack",
+      "gelina": "english/english_13_lu_0_65_65/gelina",
+      "gt": "english/english_13_lu_0_65_65/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_73_73",
+    "language": "english",
+    "text": "emotion is one of the basic things that because human and anger is one of them and nobody get angry we must be",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_73_73/dualtrack",
+      "gelina": "english/english_13_lu_0_73_73/gelina",
+      "gt": "english/english_13_lu_0_73_73/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_81_81",
+    "language": "english",
+    "text": "today i want to flag different from our apartment you're early they come to",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_81_81/dualtrack",
+      "gelina": "english/english_13_lu_0_81_81/gelina",
+      "gt": "english/english_13_lu_0_81_81/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_87_87",
+    "language": "english",
+    "text": "the thing i don't like is internet harassment this space computer are part of our lives people",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_87_87/dualtrack",
+      "gelina": "english/english_13_lu_0_87_87/gelina",
+      "gt": "english/english_13_lu_0_87_87/gt"
+    }
+  },
+  {
+    "sample_id": "english_13_lu_0_95_95",
+    "language": "english",
+    "text": "will the water is so small actually last year i was reading a created during my work time",
+    "models": {
+      "dualtrack": "english/english_13_lu_0_95_95/dualtrack",
+      "gelina": "english/english_13_lu_0_95_95/gelina",
+      "gt": "english/english_13_lu_0_95_95/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_103_103",
+    "language": "english",
+    "text": "when i was in university almost more than two years ago the community security was not very",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_103_103/dualtrack",
+      "gelina": "english/english_15_carlos_0_103_103/gelina",
+      "gt": "english/english_15_carlos_0_103_103/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_111_111",
+    "language": "english",
+    "text": "some people pelting stones at dogs and watching them",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_111_111/dualtrack",
+      "gelina": "english/english_15_carlos_0_111_111/gelina",
+      "gt": "english/english_15_carlos_0_111_111/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_1_1",
+    "language": "english",
+    "text": "the first thing i like to do on weekends is relaxing and i'll go shopping",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_1_1/dualtrack",
+      "gelina": "english/english_15_carlos_0_1_1/gelina",
+      "gt": "english/english_15_carlos_0_1_1/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_2_2",
+    "language": "english",
+    "text": "when i have time to kill i usually like to surf the internet to pay close attention",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_2_2/dualtrack",
+      "gelina": "english/english_15_carlos_0_2_2/gelina",
+      "gt": "english/english_15_carlos_0_2_2/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_65_65",
+    "language": "english",
+    "text": "the best time of the year for me is when i get to volunteer at the buddhist temple",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_65_65/dualtrack",
+      "gelina": "english/english_15_carlos_0_65_65/gelina",
+      "gt": "english/english_15_carlos_0_65_65/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_73_73",
+    "language": "english",
+    "text": "well emotion is one of the basic things that make us human",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_73_73/dualtrack",
+      "gelina": "english/english_15_carlos_0_73_73/gelina",
+      "gt": "english/english_15_carlos_0_73_73/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_81_81",
+    "language": "english",
+    "text": "today i went to collect rent from our apartment usually",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_81_81/dualtrack",
+      "gelina": "english/english_15_carlos_0_81_81/gelina",
+      "gt": "english/english_15_carlos_0_81_81/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_87_87",
+    "language": "english",
+    "text": "the thing i don't like in internet is harassment these days",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_87_87/dualtrack",
+      "gelina": "english/english_15_carlos_0_87_87/gelina",
+      "gt": "english/english_15_carlos_0_87_87/gt"
+    }
+  },
+  {
+    "sample_id": "english_15_carlos_0_95_95",
+    "language": "english",
+    "text": "well the world is so small actually last year i was visiting a client",
+    "models": {
+      "dualtrack": "english/english_15_carlos_0_95_95/dualtrack",
+      "gelina": "english/english_15_carlos_0_95_95/gelina",
+      "gt": "english/english_15_carlos_0_95_95/gt"
+    }
+  },
+  {
+    "sample_id": "english_25_goto_0_103_103",
+    "language": "english",
+    "text": "when i was in university almost more than 10 years ago the community security",
+    "models": {
+      "dualtrack": "english/english_25_goto_0_103_103/dualtrack",
+      "gelina": "english/english_25_goto_0_103_103/gelina",
+      "gt": "english/english_25_goto_0_103_103/gt"
+    }
+  },
+  {
+    "sample_id": "english_25_goto_0_111_111",
+    "language": "english",
+    "text": "people pelting stones are dogs and watching them yelp's in pain",
+    "models": {
+      "dualtrack": "english/english_25_goto_0_111_111/dualtrack",
+      "gelina": "english/english_25_goto_0_111_111/gelina",
+      "gt": "english/english_25_goto_0_111_111/gt"
+    }
+  },
+  {
+    "sample_id": "english_25_goto_0_73_73",
+    "language": "english",
+    "text": "emotion is one of the basic things that makes us human and anger is one",
+    "models": {
+      "dualtrack": "english/english_25_goto_0_73_73/dualtrack",
+      "gelina": "english/english_25_goto_0_73_73/gelina",
+      "gt": "english/english_25_goto_0_73_73/gt"
+    }
+  },
+  {
+    "sample_id": "english_25_goto_0_95_95",
+    "language": "english",
+    "text": "that world is so small actually last year i was a visiting a client",
+    "models": {
+      "dualtrack": "english/english_25_goto_0_95_95/dualtrack",
+      "gelina": "english/english_25_goto_0_95_95/gelina",
+      "gt": "english/english_25_goto_0_95_95/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_103_103",
+    "language": "spanish",
+    "text": "cuando estaba en la universidad hace casi más de 10 años la seguridad comunitaria no",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_103_103/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_103_103/gelina",
+      "gt": "spanish/spanish_15_carlos_4_103_103/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_111_111",
+    "language": "spanish",
+    "text": "algunas personas arrojando piedras a los perros y viéndolos gritar de dolor divirtiéndose",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_111_111/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_111_111/gelina",
+      "gt": "spanish/spanish_15_carlos_4_111_111/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_65_65",
+    "language": "spanish",
+    "text": "para mí la mejor época del año es cuando hago voluntariado en los templos",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_65_65/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_65_65/gelina",
+      "gt": "spanish/spanish_15_carlos_4_65_65/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_73_73",
+    "language": "spanish",
+    "text": "la emoción es el elemento fundamental que nos hace humanos",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_73_73/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_73_73/gelina",
+      "gt": "spanish/spanish_15_carlos_4_73_73/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_81_81",
+    "language": "spanish",
+    "text": "hoy fui a cobrar el alquiler de nuestro apartamento por lo general",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_81_81/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_81_81/gelina",
+      "gt": "spanish/spanish_15_carlos_4_81_81/gt"
+    }
+  },
+  {
+    "sample_id": "spanish_15_carlos_4_95_95",
+    "language": "spanish",
+    "text": "bueno el mundo es muy pequeño en realidad el año pasado estaba visitando a un cliente",
+    "models": {
+      "dualtrack": "spanish/spanish_15_carlos_4_95_95/dualtrack",
+      "gelina": "spanish/spanish_15_carlos_4_95_95/gelina",
+      "gt": "spanish/spanish_15_carlos_4_95_95/gt"
+    }
+  }
+]

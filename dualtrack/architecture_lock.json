@@ -1,0 +1,12 @@
+{
+  "name": "DualTrack",
+  "independent_temporal_backbones": 2,
+  "speech_layers": 28,
+  "motion_full_layers": 4,
+  "motion_semantic_layers": 2,
+  "motion_depth_layers": 3,
+  "tick_hz": 12.5,
+  "history_exchange": "previous generated speech and motion packets",
+  "state_exchange": "same-tick residual fusion to both native heads",
+  "codec_decode": "offline"
+}

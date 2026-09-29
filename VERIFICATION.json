@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-09-29",
+  "scope": "Inference release; small CPU regression checks, not a full benchmark reproduction.",
+  "environment": {
+    "python": "3.12",
+    "device": "cpu",
+    "torch": "2.11.0"
+  },
+  "models": {
+    "status": "PASS",
+    "python_syntax": "PASS",
+    "cli_help_entries": 6,
+    "tokenizer_inference_eval": "PASS",
+    "motionprior_inference_eval": "PASS",
+    "dualtrack_inference_eval": "PASS",
+    "original_logits_bitwise_equal": true,
+    "checkpoint_downloader_existing_hash_check": "PASS"
+  },
+  "dualtrack_regression": {
+    "status": "PASS",
+    "device": "cpu",
+    "teacher_forced_speech_loss": 1.798703908920288,
+    "teacher_forced_motion_loss": 9.254444122314453,
+    "original_logits_bitwise_equal": true,
+    "generated_ticks": 2,
+    "speech_samples": 3840,
+    "speech_rate": 24000,
+    "motion_features_shape": [
+      1,
+      499,
+      4
+    ],
+    "all_frozen": true
+  },
+  "demo": {
+    "status": "PASS",
+    "browser": "Chrome for Testing 133",
+    "comparison_samples": 43,
+    "comparison_videos": 71,
+    "perceptual_triplets": 28,
+    "perceptual_videos": 84,
+    "language_and_model_filters": "PASS",
+    "transcript_search": "PASS",
+    "pagination": "PASS",
+    "single_player_at_a_time": "PASS",
+    "mobile_390px_no_horizontal_overflow": true,
+    "video_playback": {
+      "width": 720,
+      "height": 720,
+      "duration": 7.7
+    },
+    "asset_links_checked": 394,
+    "javascript_errors": []
+  },
+  "checkpoint_hashes": {
+    "tokenizer": "c381a0db2ef794f93808169bb420dc0695b67788609acd0b999a651ea0f6f1f7",
+    "motionprior": "a0a651d0699662fdfb925646e11ece5be8b027d66cac914047657e5157323442",
+    "dualtrack": "fb3b704fbb5a0afb1325592379165b2a4cc409579b7fc3dbd1390b3fc41221bb"
+  },
+  "media_original_bytes_preserved": 394
+}

@@ -1,0 +1,257 @@
+{
+  "version": "original_motion_v1",
+  "groups": [
+    {
+      "sample_id": "english_13_lu_0_103_103",
+      "language": "english",
+      "assets": {
+        "dualtrack": "49c6589c28f0cd650dca15fb5ca51cef",
+        "gelina": "c62bc9ef6990f00cc2fa96c2847d483e",
+        "gt": "773520326b6295567dc6a1a8cfb9dfaa"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_111_111",
+      "language": "english",
+      "assets": {
+        "dualtrack": "75fb8a65c807c69bfe42ab47ae45ffab",
+        "gelina": "650796e2dd07d3cdd65ef0b987d2055e",
+        "gt": "b4eda51ca7862d77eb94a26d076dd559"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_1_1",
+      "language": "english",
+      "assets": {
+        "dualtrack": "b3296c82a59eb463aa0690b637b9e6d7",
+        "gelina": "1f3d1d8e22bd9e8ad2eb54e301ebe358",
+        "gt": "06aa7f26a4c728af0f9cb878a606f37c"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_2_2",
+      "language": "english",
+      "assets": {
+        "dualtrack": "7288ae30ab663d79c111ca9431bb1302",
+        "gelina": "c947e3e40c82d8868a387133868fa7fb",
+        "gt": "8435f6eafd370924750af686a7c36e71"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_65_65",
+      "language": "english",
+      "assets": {
+        "dualtrack": "a9de1735a80223b1c91452a306a5670e",
+        "gelina": "81d7f1e45a3d20dfcb0cd0f94df35fcd",
+        "gt": "70f322cfd23018b7ec9c9115b0a83e06"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_73_73",
+      "language": "english",
+      "assets": {
+        "dualtrack": "7c891dfa2d4d32a8ecde0ee75bdef2a2",
+        "gelina": "ad88b72b637be47cd1afd66f3e1c86e7",
+        "gt": "dcef5b6ed017dd4f7cddd64a5c8e7275"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_81_81",
+      "language": "english",
+      "assets": {
+        "dualtrack": "18ec581a26656e0714561d7d0a086aba",
+        "gelina": "e505035cc4d792f267246ea1ec3aed81",
+        "gt": "c7204b77b84e2d6b6a5551d4bf376cc0"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_87_87",
+      "language": "english",
+      "assets": {
+        "dualtrack": "6e1c85a1e367114a42000f4072c853c2",
+        "gelina": "a1d961665d84de99a26f5c4be1caf6c9",
+        "gt": "66aa2bb9ad0938510bd400e4c81ef714"
+      }
+    },
+    {
+      "sample_id": "english_13_lu_0_95_95",
+      "language": "english",
+      "assets": {
+        "dualtrack": "343773b5094a936abd0e20e4631ab234",
+        "gelina": "f65546e15047a26b7a08fc46f9d9f9a7",
+        "gt": "ab5ece5db7c8b5d72578399c33b4862b"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_103_103",
+      "language": "english",
+      "assets": {
+        "dualtrack": "ac8f666cc108d3afc84531ff87cf72fc",
+        "gelina": "efa6509226ba21ceafce84c00a8c3960",
+        "gt": "c21f02a8d08da85ce18ecb72f1d96a0c"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_111_111",
+      "language": "english",
+      "assets": {
+        "dualtrack": "60fdcf3c27b59d6f7ac2a8a66d38f404",
+        "gelina": "0c4c8b89ab23b28f45e2e1349bba3fd9",
+        "gt": "93b83123ec226ff644689ad02e53ad77"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_1_1",
+      "language": "english",
+      "assets": {
+        "dualtrack": "e94dd3d785687ed5e91cfd8d0f63afbf",
+        "gelina": "f9721136daa330e4c82c8d8a29c651c3",
+        "gt": "e7796d680447b9ee6d2e6745d174fef5"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_2_2",
+      "language": "english",
+      "assets": {
+        "dualtrack": "f38330a9cf56c50b0ab947b4f6fe01fe",
+        "gelina": "9d00eefda9d5f66df2a8273e97e195ba",
+        "gt": "1d6e8d8fac14112bd10424363c60f5e0"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_65_65",
+      "language": "english",
+      "assets": {
+        "dualtrack": "00be037f414e5d1277c95ffb631db2dc",
+        "gelina": "751411f11233f25f37951e23a9154905",
+        "gt": "0331ce24f2d63ffad8dba876bff40588"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_73_73",
+      "language": "english",
+      "assets": {
+        "dualtrack": "190a8850eafc8ce8a2acbf71fe2dade7",
+        "gelina": "aeaf5b08ee1466296bcd611979a4da87",
+        "gt": "1e20a49fecd975a3e35a1d1395f199c5"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_81_81",
+      "language": "english",
+      "assets": {
+        "dualtrack": "102399bfc3f495f3c78bb26ea2175227",
+        "gelina": "eb1678a8d10040a6c304bf44a402ee77",
+        "gt": "41eb939753fcf44fc4f098e70c5332cb"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_87_87",
+      "language": "english",
+      "assets": {
+        "dualtrack": "57ef5913e15d41011bc4eb3f5ef75151",
+        "gelina": "c1628f196a91c49a77d1046ee9804c01",
+        "gt": "c6a7e8e6e84dad6b1b5e74630601e7a4"
+      }
+    },
+    {
+      "sample_id": "english_15_carlos_0_95_95",
+      "language": "english",
+      "assets": {
+        "dualtrack": "2adf26bc9cb75b5dfdeebaf34f48644a",
+        "gelina": "aeb0659d3a3aeb7103377471d23b9903",
+        "gt": "708be23cd5a5894501ceea3c1f878d9b"
+      }
+    },
+    {
+      "sample_id": "english_25_goto_0_103_103",
+      "language": "english",
+      "assets": {
+        "dualtrack": "68e1b4ba30553272994b8327bea6ef94",
+        "gelina": "5c5bb394f11a9b292f8e58917b934f1f",
+        "gt": "69ab1cd4dda3f372efe8f1340c4643ba"
+      }
+    },
+    {
+      "sample_id": "english_25_goto_0_111_111",
+      "language": "english",
+      "assets": {
+        "dualtrack": "2a06b893730cabb48c1dbdda7e61e10c",
+        "gelina": "d3acd99d8cf3f11aeac36987ec263526",
+        "gt": "58345f8342aae473f42e2cfc29aeecfd"
+      }
+    },
+    {
+      "sample_id": "english_25_goto_0_73_73",
+      "language": "english",
+      "assets": {
+        "dualtrack": "4e3f6c3bd708283c90eaec0b456cc868",
+        "gelina": "0a974bfedc1be1e703197078cfc758ec",
+        "gt": "d31aaca15f7942d3b1a0a8a4ead503df"
+      }
+    },
+    {
+      "sample_id": "english_25_goto_0_95_95",
+      "language": "english",
+      "assets": {
+        "dualtrack": "8678fb511ac12a6f1579900d7152bd1a",
+        "gelina": "3186c6f6eb39c3c56600b625fad42305",
+        "gt": "9cb59ee9d5dcea6085db58e4aade3879"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_103_103",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "a0e63f37d775b7594c3eb4b943cf09cc",
+        "gelina": "6f55889ed50e944287e110187307fda7",
+        "gt": "27118985fa02c8e8f37dc15e5b405c4c"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_111_111",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "d0d515e2da40b7ce0adce7334db9ffa1",
+        "gelina": "8436329649bbfdb37190ea1e709d80cc",
+        "gt": "14eeca39bae500e1539769a7db56a0ba"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_65_65",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "667ac65d7cc1df8db600993340bc8c84",
+        "gelina": "da61fad65ed9010bc2e7ed7435d3474d",
+        "gt": "a817ca382d333aea1a50cdef15c583af"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_73_73",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "105f75551e2cfc89e464971b066e2ef7",
+        "gelina": "0dac854e2a4dd263da5cc71586e43e89",
+        "gt": "60e7d1af6074e26f3dcd07ac83abcc90"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_81_81",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "16267aa6a8e368bdd5f96bef48e512ab",
+        "gelina": "ec3d444199242681e44e5f4badbf9573",
+        "gt": "566b4b017f12152b69a26240ca16e99b"
+      }
+    },
+    {
+      "sample_id": "spanish_15_carlos_4_95_95",
+      "language": "spanish",
+      "assets": {
+        "dualtrack": "247cb08f8a060e0e5803fe4ef9497492",
+        "gelina": "a79da1884e71cbfc981362546620b131",
+        "gt": "4ecd54678e8a111e8a2c901aff8a3552"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "videos": 71,
+  "samples": 43,
+  "counts": [
+    {
+      "model": "DualTrack",
+      "language": "english",
+      "videos": 22
+    },
+    {
+      "model": "GELINA",
+      "language": "english",
+      "videos": 22
+    },
+    {
+      "model": "DualTrack",
+      "language": "chinese",
+      "videos": 9
+    },
+    {
+      "model": "DualTrack",
+      "language": "japanese",
+      "videos": 6
+    },
+    {
+      "model": "DualTrack",
+      "language": "spanish",
+      "videos": 6
+    },
+    {
+      "model": "GELINA",
+      "language": "spanish",
+      "videos": 6
+    }
+  ],
+  "resolution": [
+    960,
+    960
+  ],
+  "fps": 30,
+  "codecs": {
+    "video": "h264/yuv420p",
+    "audio": "aac/24000Hz/mono"
+  },
+  "original_audio_and_motion_hashes_verified": true,
+  "output_hashes_verified": true,
+  "all_video_streams_frame_counts_audio_durations_and_full_decoding_checked_during_render": true,
+  "paired_cameras_identical": true,
+  "all_source_audio_retained": true,
+  "final_pose_hold_videos": 27,
+  "max_final_pose_hold_frames": 1,
+  "total_video_seconds": 413.433336,
+  "video_bytes": 36663104,
+  "mesh_bytes": 1581715834
+}

@@ -1,0 +1,16 @@
+{
+  "version": "paper_quality_mesh_v2",
+  "source_manifest_sha256": "5a531d90290b6289ed9c74b5c83681fab83bf1331d53416d236bac390676d5d7",
+  "motion": "Exact archived quality-evaluation SMPL-X parameters, including the official DualTrack conversion; no generation or refitting.",
+  "mesh": "Full SMPL-X, 10475 vertices; original shape/expression/hand means retained. Mesh arrays remain in source world coordinates.",
+  "display": "Shared rigid Y-up to Z-up display rotation, then one constant initial root/floor translation per clip; fixed camera shared across the two models for each sample; no smoothing or speed change.",
+  "audio": "Each system uses its own archived generated WAV; AAC 192k, original amplitude, no time shift or stretch.",
+  "duration": "Preserve all source motion frames and all speech; if necessary hold the final pose for one 30-FPS frame and pad trailing audio with silence.",
+  "resolution": [
+    960,
+    960
+  ],
+  "fps": 30,
+  "body_model_sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+  "renderer_sha256": "fa2b76e60de687290a422202b230d06fe09df5c467346193ff087c7c3a5a554f"
+}

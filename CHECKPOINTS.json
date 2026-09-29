@@ -1,0 +1,26 @@
+{
+  "release": "v1.0.0",
+  "assets": [
+    {
+      "name": "tokenizer",
+      "path": "tokenizer/checkpoints/best.pt",
+      "bytes": 195270469,
+      "sha256": "c381a0db2ef794f93808169bb420dc0695b67788609acd0b999a651ea0f6f1f7",
+      "url": "https://github.com/Yuanzhuo2021/DualTrack/releases/download/v1.0.0/tokenizer_best.pt"
+    },
+    {
+      "name": "motionprior",
+      "path": "motionprior/checkpoints/step861853.pt",
+      "bytes": 1132855439,
+      "sha256": "a0a651d0699662fdfb925646e11ece5be8b027d66cac914047657e5157323442",
+      "url": "https://github.com/Yuanzhuo2021/DualTrack/releases/download/v1.0.0/motionprior_step861853.pt"
+    },
+    {
+      "name": "dualtrack",
+      "path": "dualtrack/checkpoints/step_013000.pt",
+      "bytes": 412380139,
+      "sha256": "fb3b704fbb5a0afb1325592379165b2a4cc409579b7fc3dbd1390b3fc41221bb",
+      "url": "https://github.com/Yuanzhuo2021/DualTrack/releases/download/v1.0.0/dualtrack_step013000.pt"
+    }
+  ]
+}

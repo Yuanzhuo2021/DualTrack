@@ -1,0 +1,12 @@
+# Python 3.12; core inference/evaluation dependencies.
+torch==2.11.0
+torchaudio==2.11.0
+transformers==4.57.3
+accelerate==1.12.0
+numpy>=1.26,<3
+scipy
+soundfile
+librosa
+einops
+sox
+onnxruntime
