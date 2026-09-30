@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "date_utc": "2026-09-29",
-  "scope": "Inference release; small CPU regression checks, not a full benchmark reproduction.",
+  "date_utc": "2026-09-30",
+  "scope": "Inference release: model checks from 2026-09-29 retained; README and skeleton demo verified on 2026-09-30.",
   "environment": {
     "python": "3.12",
     "device": "cpu",
@@ -35,28 +35,109 @@
   },
   "demo": {
     "status": "PASS",
-    "browser": "Chrome for Testing 133",
+    "date_utc": "2026-09-30",
     "comparison_samples": 43,
-    "comparison_videos": 71,
-    "perceptual_triplets": 28,
-    "perceptual_videos": 84,
-    "language_and_model_filters": "PASS",
+    "comparison_videos": 114,
+    "ground_truth_samples": 43,
+    "all_videos_skeleton": true,
+    "full_video_decode": "PASS",
+    "source_video_hashes": "PASS",
+    "language_and_source_filters": "PASS",
     "transcript_search": "PASS",
     "pagination": "PASS",
     "single_player_at_a_time": "PASS",
+    "seek_and_filter_pause": "PASS",
     "mobile_390px_no_horizontal_overflow": true,
-    "video_playback": {
-      "width": 720,
-      "height": 720,
-      "duration": 7.7
-    },
-    "asset_links_checked": 394,
-    "javascript_errors": []
+    "offline_file_page": "PASS",
+    "no_javascript_gallery_videos": 114,
+    "legacy_study_redirect": "PASS",
+    "exact_requested_architecture_pdf": true,
+    "readme_tables": 0,
+    "readme_equations": 0,
+    "readme_architecture_images": 1,
+    "asset_links_checked": 228,
+    "playback_checks": [
+      {
+        "source": "GT \u00b7 english \u00b7 english_13_lu_0_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 7.7,
+        "error": null
+      },
+      {
+        "source": "GELINA \u00b7 english \u00b7 english_13_lu_0_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 4,
+        "error": null
+      },
+      {
+        "source": "DualTrack \u00b7 english \u00b7 english_13_lu_0_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 6.64,
+        "error": null
+      },
+      {
+        "source": "GT \u00b7 spanish \u00b7 spanish_15_carlos_4_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 7.7,
+        "error": null
+      },
+      {
+        "source": "GELINA \u00b7 spanish \u00b7 spanish_15_carlos_4_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 7.8,
+        "error": null
+      },
+      {
+        "source": "DualTrack \u00b7 spanish \u00b7 spanish_15_carlos_4_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 5.2,
+        "error": null
+      },
+      {
+        "source": "GT \u00b7 chinese \u00b7 chinese_13_lu_2_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 7.7,
+        "error": null
+      },
+      {
+        "source": "DualTrack \u00b7 chinese \u00b7 chinese_13_lu_2_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 6.72,
+        "error": null
+      },
+      {
+        "source": "GT \u00b7 japanese \u00b7 japanese_25_goto_6_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 7.7,
+        "error": null
+      },
+      {
+        "source": "DualTrack \u00b7 japanese \u00b7 japanese_25_goto_6_103_103",
+        "width": 960,
+        "height": 640,
+        "duration": 5.84,
+        "error": null
+      }
+    ],
+    "javascript_errors": [],
+    "http_errors": [],
+    "browser": "Chrome for Testing 133",
+    "http_seek_server_accepts_ranges": true
   },
   "checkpoint_hashes": {
     "tokenizer": "c381a0db2ef794f93808169bb420dc0695b67788609acd0b999a651ea0f6f1f7",
     "motionprior": "a0a651d0699662fdfb925646e11ece5be8b027d66cac914047657e5157323442",
     "dualtrack": "fb3b704fbb5a0afb1325592379165b2a4cc409579b7fc3dbd1390b3fc41221bb"
   },
-  "media_original_bytes_preserved": 394
+  "media_original_bytes_preserved": 394,
+  "models_checked_date_utc": "2026-09-29"
 }

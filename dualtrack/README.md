@@ -1,17 +1,8 @@
 # DualTrack
 
-DualTrack couples a pretrained **speech backbone** and **MotionPrior** while preserving their temporal models and native output heads. Previous speech/motion packets cross into the opposite temporal input, and a shared 512D MLP adds same-tick residuals to the speech and semantic-motion hidden states.
+**DualTrack** couples Qwen3-TTS and MotionPrior on a shared 12.5 Hz clock. Residual adapters exchange previous packets in both directions, while **Tick Fusion** coordinates the current speech and motion-semantic states. Each stream then completes its own packet in parallel with the other stream.
 
-| Path | Responsibility |
-| --- | --- |
-| `DualTrack/dual_tick.py` | `DualTickModel`, cross-input residuals, fusion, and `DualTickStream` |
-| `DualTrack/motionprior.py` | `MotionPriorTower`, full/semantic caches, rolling context |
-| `DualTrack/qwen.py` | Qwen prompt, reference speaker embedding, speech decoding |
-| `DualTrack/joint_tick.py` | Native prompt capture, paired batches, isolated speech RNG |
-| `DualTrack/io.py` | Relative assets and external Qwen model resolution |
-| `joint_motion/` | Configuration, sampling, alignment, and evaluation losses |
-| `runtime.py` | Frozen-base construction and verified 13000-step delta loading |
-| `base_locks.json` | Exact deploy-time weight hashes and historical lock digests |
+See [dual_tick.py](DualTrack/dual_tick.py) for coupling and generation, [motionprior.py](DualTrack/motionprior.py) for the motion stream, and [qwen.py](DualTrack/qwen.py) for speech conditioning and decoding.
 
 The delta checkpoint does not contain the frozen Qwen base. Download all three repository checkpoints, and supply a complete Qwen3-TTS-12Hz-0.6B-Base directory containing its `speech_tokenizer/` subdirectory. The original parameter names and checkpoint bytes are preserved while the public Python namespaces are `DualTrack` and `motionprior`.
 

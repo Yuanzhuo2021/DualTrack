@@ -1,16 +1,8 @@
 # Motion tokenizer
 
-The tokenizer maps **25 Hz UMR499** motion to **12.5 Hz, 16-code packets** and reconstructs continuous motion. Its noncausal convolutional backbone has width 512 and temporal stride 2. The semantic VQ and 15-layer kinematic RVQ independently quantize projections of the full latent, then their projected outputs are summed.
+The **SeMoCo-based tokenizer** converts 25 Hz UMR499 body and finger motion into 12.5 Hz packets with one semantic code and fifteen kinematic codes. Parallel semantic VQ and kinematic RVQ branches share an encoder; their quantized representations are combined to reconstruct motion.
 
-| Path | Responsibility |
-| --- | --- |
-| `models/umr/structured_vq.py` | Codec configuration, encode/decode interfaces |
-| `models/umr/conv_backbone.py` | Convolutional encoder and decoder |
-| `models/quantizers/split_semantic_rvq.py` | Parallel semantic/kinematic quantization |
-| `models/quantizers/ema_rvq.py` | Individual codebooks and residual quantization |
-| `data/umr_schema.py` | 499D feature layout and canonical-anchor format |
-| `eval/` | Reconstruction, codebook, geometry, and motion-validity metrics |
-| `checkpoint_io.py` | Restricted tensor/NumPy checkpoint loading |
+The main implementation is in [structured_vq.py](models/umr/structured_vq.py), with [semantic/kinematic quantization](models/quantizers/split_semantic_rvq.py) and the [UMR499 input format](data/umr_schema.py).
 
 Download `checkpoints/best.pt` using `python download_checkpoints.py --model tokenizer` at the repository root. Its immutable contract is `balanced_v2_s2`: 16 codebooks, each with 1,024 entries.
 

@@ -1,18 +1,8 @@
 # MotionPrior
 
-The released **step 861853** model predicts semantic and kinematic motion codes on a 12.5 Hz clock. It uses a 768D full-motion temporal stack (4 layers), a 768D semantic stack (2 layers), and a depth stack (3 layers), all with 12 attention heads. Its temporal context is 150 ticks.
+**MotionPrior** is pretrained on motion-only data to generate packets from the frozen tokenizer. Separate semantic and full-packet temporal models capture motion history. A semantic predictor chooses whether to keep or change the semantic code, then a depth predictor completes the fifteen kinematic codes.
 
-The semantic stream predicts `q0` through stay/change factorization. The full-motion and semantic states form the context for autoregressive `q1…q15` prediction. All 16 frozen codebook embeddings are taken from the matching tokenizer checkpoint.
-
-| Path | Responsibility |
-| --- | --- |
-| `motionprior/models/motion_prior.py` | Complete prior, forward and generation |
-| `motionprior/models/frame_embedding.py` | Semantic and kinematic packet embeddings |
-| `motionprior/models/temporal_gpt.py` | Temporal modeling |
-| `motionprior/models/depth_gpt.py` | Within-packet autoregression |
-| `motionprior/models/q0_factorization.py` | Semantic stay/change distribution |
-| `motionprior/contracts/semoco.py` | Tokenizer checkpoint and shape contract |
-| `runtime.py` | Exact weight loading and physical-unit decoding |
+See [motion_prior.py](motionprior/models/motion_prior.py) for the model and [depth_gpt.py](motionprior/models/depth_gpt.py) for within-packet prediction. The released checkpoint is step 861853.
 
 Download both the tokenizer and MotionPrior assets from the repository root. The runtime reads `../tokenizer/checkpoints/best.pt` and verifies every embedded tokenizer tensor against the separately loaded codec.
 
